@@ -1,3 +1,5 @@
+/* Universal Style */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +12,12 @@ body {
   flex-direction: column;
 }
 
+/* Header Style */
+
 .header {
   display: flex;
   flex-direction: column;
+  padding-bottom: 144px;
 }
 
 .header,
@@ -20,11 +25,12 @@ body {
   background-color: #1F2937;
 }
 
-.title {
+.header-title {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 16px;
+  padding-bottom: 100px;
 }
 
 .links {
@@ -36,11 +42,18 @@ body {
 
 .header-content {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
 
 .header-content-text {
   display: flex;
   flex-direction: column;
+  max-width: 450px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .header h1 {
@@ -70,9 +83,20 @@ body {
 button {
   color: #F9FAF8;
   background-color: #3882F6;
+  font-size: 18px;
   border: 0;
+  padding: 8px 32px;
+  border-radius: 8px;
 }
 
 .header-content-image {
+  height: 230px;
+  width: 575px;
   color: #E5E7EB;
+  background-color: #6D747D;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
