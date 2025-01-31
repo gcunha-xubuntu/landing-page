@@ -58,8 +58,6 @@ body {
 .header h1 {
   font-size: 24px;
   color: #F9FAF8;
-  font-weight: 900;
-  flex-shrink: 0;
 }
 
 .header h2 {
@@ -149,3 +147,27 @@ button {
 }
 
 /* Second Section Style */
+
+.section-two {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 142px;
+  padding-bottom: 117px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1F2937;
+  max-width: 775px;
+}
+
+.author {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1F2937;
+  padding-left: 480px;
+}
