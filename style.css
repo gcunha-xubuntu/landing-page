@@ -178,10 +178,21 @@ button {
 .section-three {
   background-color: #FFFFFF;
   color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .invite {
   background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 150px;
+  padding: 50px 150px;
 }
 
 .section-three h2 {
@@ -196,6 +207,6 @@ button {
 
 .section-three button {
   border: 2px solid #FFFFFF;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 700;
 }
