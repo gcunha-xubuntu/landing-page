@@ -106,28 +106,45 @@ button {
 .section-one {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 142px;
 }
 
 .container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 175px;
+  gap: 5px;
 }
 
 .section-one h2 {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
+  padding-bottom: 50px;
 }
 
 .box {
   border: 4px solid #3882F6;
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  flex-shrink: 1;
 }
 
 .card p {
   font-size: 18px;
   color: #808080;
+  text-align: center;
 }
