@@ -82,7 +82,7 @@ button {
   background-color: #3882F6;
   font-size: 18px;
   border: 0;
-  padding: 8px 32px;
+  padding: 6px 32px;
   border-radius: 8px;
 }
 
@@ -101,6 +101,7 @@ button {
 /* First Section Style */
 
 .section-one {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,8 +167,35 @@ button {
 }
 
 .author {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #1F2937;
   padding-left: 480px;
+}
+
+/* Third Section Style */
+
+.section-three {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.invite {
+  background-color: #3882F6;
+}
+
+.section-three h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-three p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-three button {
+  border: 2px solid #FFFFFF;
+  font-size: 21px;
+  font-weight: 700;
 }
