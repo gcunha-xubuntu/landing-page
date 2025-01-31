@@ -193,6 +193,7 @@ button {
   border-radius: 8px;
   gap: 150px;
   padding: 50px 150px;
+  flex-shrink: 1;
 }
 
 .section-three h2 {
@@ -209,4 +210,17 @@ button {
   border: 2px solid #FFFFFF;
   font-size: 18px;
   font-weight: 700;
+}
+
+/* Footer Style */
+
+.footer {
+  font-size: 18px;
+  color: #E5E7EB;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
